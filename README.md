@@ -10,10 +10,10 @@ and display it to console.
 
 ## Functions
 ### Factorial
-This program has a recussive and iterative function to calulate a factorial of a number input by the user. 
-If a user selects from an output menu to calulate a factorial then the recursive function will be called by
+This program has a recursive and iterative function to calculate a factorial of a number input by the user. 
+If a user selects from an output menu to calculate a factorial then the recursive function will be called by
 main and the returned calculation will be output to main. Otherwise, if a user chooses to test the performance
-between recusion and iteration, main will call both factorial functions and use the ctime library to time each
+between recursion and iteration, main will call both factorial functions and use the ctime library to time each
 function in milliseconds. The time for both functions will be output to the console with a description to make 
 the output more legible to the user.
 
@@ -27,8 +27,8 @@ the results of the factorial functions, as described above, will be used.
 ### GetAndCheckInt
 This function is used to verify all user inputs. It will check if the input is an integer and if it is in the range
 given in the function arguments when called in main. If the user's input is not of an integer data type then a 
-message will be output intruction the user to enter an integer. If the correct data type is input but is out of
-the range described in the parameters, then an error message will be output intruction the user to enter an integer
+message will be output instruction the user to enter an integer. If the correct data type is input but is out of
+the range described in the parameters, then an error message will be output instruction the user to enter an integer
 within the range given in the function call.
 
 ### Menu
@@ -37,7 +37,9 @@ verify the user's input and return the input back to main if verified.
 
 ## Conclusion
 Testing the execution times of recursion vs iteration results in a consistently lower time for iterative functions.
-While recursion is useful for more complicated tasks or calulations, it is more time effecient to use an iterative
-solution if it is possible to implement for the task or calulation. Also, more memory will be used for recursive 
-functions do to the incrementing amount of stack frames everytime the function calls upon itself recurisvely. This
-makes iterative functions definitvely more efficient with time and memory.
+While recursion is useful for more complicated tasks or calculations, it is more time efficient to use an iterative
+solution if it is possible to implement for the task or calculation. Also, more memory will be used for recursive 
+functions do to the incrementing amount of stack frames everytime the function calls upon itself recursively. This
+makes iterative functions definitely more efficient with time and memory.
+
+
